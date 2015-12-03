@@ -110,10 +110,11 @@ public class Game implements IWorldView {
 	*/
 	
 	public static final String [] lessonsName = new String[] { // WARNING, keep ChooseLessonDialog.lessons synchronized
+		// Adrien Luxey: src/plm/core/ui/ChooseLessonDialog.java? It's not in the repo anymore
 		"lessons.welcome", "lessons.maze", "lessons.turmites", "lessons.turtleart",
 		"lessons.sort.basic", "lessons.sort.dutchflag", "lessons.sort.baseball", "lessons.sort.pancake", 
 		"lessons.recursion.cons", "lessons.recursion.logo", "lessons.recursion.hanoi",
-		"lessons.bat.string1"
+		"lessons.bat.string1", "lessons.lander"
 	};
 	
 	public static final ProgrammingLanguage JAVA =       new LangJava(false);
